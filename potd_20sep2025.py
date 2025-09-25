@@ -18,23 +18,12 @@ Constraints:
 Expected Complexities
 Time Complexity: O(n)
 Auxiliary Space: O(n)'''
-import math
+
 
 class Solution:
-  """
-  This class contains the method to find the longest valid subarray.
-  """
+
   def longestSubarray(self, arr: list[int]) -> int:
-    """
-    Finds the length of the longest subarray where all elements are less than or
-    equal to the subarray's length. This is an O(n) solution using a monotonic stack.
-
-    Args:
-      arr: A list of integers.
-
-    Returns:
-      The length of the longest valid subarray.
-    """
+    """ solution using a monotonic stack"""
     n = len(arr)
     max_len = 0
     
