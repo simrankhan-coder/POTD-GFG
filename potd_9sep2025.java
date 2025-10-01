@@ -19,6 +19,7 @@ Time Complexity: O(n log n)
 Auxiliary Space: O(1)
  */
 import java.util.Arrays;
+
 public class potd_9sep2025 {
      public static int assignHole(int[] mice, int[] holes) {
         /* Sort the arrays */
@@ -37,9 +38,8 @@ public class potd_9sep2025 {
     }
 
     public static void main(String[] args) {
-        potd_9sep2025 output = new potd_9sep2025();
         int[] mice = {4, -4, 2};
         int[] holes = {4, 0, 5};
-        System.out.println(output.assignHole(mice, holes));
+        System.out.println(potd_9sep2025.assignHole(mice, holes));
     }
 }
