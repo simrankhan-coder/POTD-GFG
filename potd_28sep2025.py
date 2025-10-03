@@ -22,6 +22,8 @@ Expected Complexities
 Time Complexity: O(n)
 Auxiliary Space: O(n)
 '''
+import math
+from collections import deque
 class Solution:
     def longestSubarray(self, arr, x):
         #code here
